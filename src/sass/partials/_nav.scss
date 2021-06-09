@@ -1,0 +1,41 @@
+/*--------Nav*/
+
+a.navbar-brand.logo {
+    width: 16.25rem;
+    color: $colour-cream;
+    font-weight: 700;
+    height: 3rem;
+}
+
+
+/*----------Navitems*/
+
+
+/* div#navbarSupportedContent.collapse.navbar-collapse {
+    font-weight: 500;
+    letter-spacing: 0.0375rem;
+    color: white;
+    cursor: pointer;
+} */
+
+nav ul li {
+    text-transform: uppercase;
+}
+
+.navbar-nav>li>a {
+    color: $colour-cream !important;
+    margin-right: .80rem;
+    margin-left: .80rem;
+    border-top: 0.2rem solid $colour-borderdark;
+    cursor: pointer;
+}
+
+.navbar-nav>li>a.active,
+.navbar-nav>li>a.active:focus {
+    border-bottom: 0.2rem solid $colour-lightpurple;
+}
+
+.navbar-nav>li>a.active,
+.navbar-nav>li>a:hover {
+    border-bottom: 0.2rem solid $colour-lightpurple;
+}
